@@ -1,0 +1,82 @@
+.card-category{
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+  width: 600px;
+  border :1px solid white;
+  color: white ;
+  text-shadow: 1px 1px grey;
+  border-radius: 20px;
+
+}
+
+.card-product {
+ display: flex;
+ box-shadow: 2px 5px 8px #e5e5e5;
+ width: 600px;
+ margin-top: 20px;
+ height: 200px;
+ align-items: center;
+}
+
+img {
+  height: 100%;
+}
+
+ .text {
+ margin: 10px 0 0 10px;
+
+}
+
+ .text h1,p {
+  margin : 0 ;
+ }
+
+
+.card-trip {
+ margin-top: 20px;
+ background-color: white;
+ box-shadow: 2px 5px 8px #e5e5e5;
+ width: 600px;
+ padding-bottom: 20px;
+
+}
+
+.text-voyage {
+
+  margin: 20px 0 0 20px;
+}
+
+.text-voyage h1, .text-voyage h5{
+  margin: 0;
+}
+
+.foot{
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.foot h5, .foot p {
+   flex-grow: 1;
+}
+
+.foot p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 200px;
+}
+
+.brad {
+  position:relative;
+  bottom: 200px;
+  left: 520px;
+  top: -132px;
+  border-radius: 208px;
+  height: 60px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 3px #a6a8a7;
+}
+
